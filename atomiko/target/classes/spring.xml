@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:mybatis="http://mybatis.org/schema/mybatis-spring"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+    http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+    http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd">
+
+    <!-- jta事务管理器 -->
+    <bean id="jtaTransactionManager" class="org.springframework.transaction.jta.JtaTransactionManager" >
+        <property name="transactionManager">
+            <bean class="com.atomikos.icatch.jta.UserTransactionManager" destroy-method="close" init-method="init">
+                <property name="forceShutdown" value="true"/>
+            </bean>
+        </property>
+        <property name="userTransaction">
+            <bean class="com.atomikos.icatch.jta.UserTransactionImp">
+                <property name="transactionTimeout" value="300"/>
+            </bean>
+        </property>
+    </bean>
+
+    <!-- 数据源配置1-->
+    <bean  id="jtaDataSource1" class="com.atomikos.jdbc.AtomikosDataSourceBean" destroy-method="close" init-method="init">
+        <property name="uniqueResourceName" value="ds1" />
+        <property name="xaDataSourceClassName" value="com.mysql.jdbc.jdbc2.optional.MysqlXADataSource" />
+        <property name="xaProperties">
+            <props>
+                <prop key="url">jdbc:mysql://127.0.0.1:3306/sit1</prop>
+                <prop key="user">root</prop>
+                <prop key="password">123456</prop>
+                <prop key="pinGlobalTxToPhysicalConnection">true</prop>
+            </props>
+        </property>
+        <property name="minPoolSize" value="10"/>
+        <property name="maxPoolSize" value="100"/>
+        <property name="borrowConnectionTimeout" value="30"/>
+        <property name="testQuery" value="select 1"/>
+        <property name="maintenanceInterval" value="60"/>
+    </bean>
+
+    <!-- 数据源配置2-->
+    <bean  id="jtaDataSource2" class="com.atomikos.jdbc.AtomikosDataSourceBean" destroy-method="close" init-method="init">
+        <property name="uniqueResourceName" value="ds2"/>
+        <property name="xaDataSourceClassName" value="com.mysql.jdbc.jdbc2.optional.MysqlXADataSource"/>
+        <property name="xaProperties">
+            <props>
+                <prop key="url">jdbc:mysql://127.0.0.1:3306/sit2</prop>
+                <prop key="user">root</prop>
+                <prop key="password">123456</prop>
+                <prop key="pinGlobalTxToPhysicalConnection">true</prop>
+            </props>
+        </property>
+        <property name="minPoolSize" value="10"/>
+        <property name="maxPoolSize" value="100"/>
+        <property name="borrowConnectionTimeout" value="30"/>
+        <property name="testQuery" value="select 1"/>
+        <property name="maintenanceInterval" value="60"/>
+    </bean>
+
+
+
+    <!-- 让spring管理sqlsessionfactory 使用mybatis和spring整合包中的 -->
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean" id="sqlSessionFactory1">
+        <!-- 数据库连接池 -->
+        <property name="dataSource" ref="jtaDataSource1"/>
+        <!-- 加载mybatis的全局配置文件 -->
+        <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"/>
+    </bean>
+
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean" id="sqlSessionFactory2">
+        <!-- 数据库连接池 -->
+        <property name="dataSource" ref="jtaDataSource2"/>
+        <!-- 加载mybatis的全局配置文件 -->
+        <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"/>
+    </bean>
+
+    <!--指定mybatis的mapper文件的位置-->
+    <!--指定包下的Mapper接口使用获取底层数据库连接-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactory" ref="sqlSessionFactory1"/>
+        <property name="basePackage" value="com.test.service.cust"/>
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.test.service.bank"/>
+        <property name="sqlSessionFactory" ref="sqlSessionFactory2"/>
+    </bean>
+
+    <tx:annotation-driven transaction-manager="jtaTransactionManager" proxy-target-class="true" />
+
+    <bean id="pubCustInfoController" class="com.test.controller.PubCustController"></bean>
+</beans>
