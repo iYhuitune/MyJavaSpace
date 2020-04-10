@@ -18,8 +18,9 @@ public interface ComCustInfoMapper {
 	 * @return: int 表变动条数
 	 */
 
-	@Insert("insert into com_cust_info (cust_no, bank_cust_code, unioncode ,ID_TYPE_NAME) values(#{custNo},'test','801','1')")
-	 int insert(ComCustInfoPo comCustInfo);
+	//@Insert("insert into com_cust_info (cust_no, bank_cust_code, unioncode ,ID_TYPE_NAME) values(#{custNo},'test','801','1')")
+	int insert(ComCustInfoPo comCustInfo);
 
 
+	int insertBatch(List<ComCustInfoPo> list);
 }

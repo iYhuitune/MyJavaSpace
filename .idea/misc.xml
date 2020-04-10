@@ -13,6 +13,14 @@
         <option value="$PROJECT_DIR$/customer/pom.xml" />
         <option value="$PROJECT_DIR$/configserver/pom.xml" />
         <option value="$PROJECT_DIR$/atomiko/pom.xml" />
+        <option value="$PROJECT_DIR$/RedisSetNX/pom.xml" />
+        <option value="$PROJECT_DIR$/MutiThread/pom.xml" />
+        <option value="$PROJECT_DIR$/Java8/pom.xml" />
+        <option value="$PROJECT_DIR$/SortArchithal/pom.xml" />
+        <option value="D:/下载/dubbo-master/pom.xml" />
+        <option value="D:/下载/dubbo-master/compiler/pom.xml" />
+        <option value="$PROJECT_DIR$/CloudLock/pom.xml" />
+        <option value="$PROJECT_DIR$/MyRocketMQ/pom.xml" />
       </list>
     </option>
   </component>

@@ -2,13 +2,134 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CloudLock/CloudLock.iml" filepath="$PROJECT_DIR$/CloudLock/CloudLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java8/Java8.iml" filepath="$PROJECT_DIR$/Java8/Java8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MutiThread/MutiThread.iml" filepath="$PROJECT_DIR$/MutiThread/MutiThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyRocketMQ/MyRocketMQ.iml" filepath="$PROJECT_DIR$/MyRocketMQ/MyRocketMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RedisSetNX/RedisSetNX.iml" filepath="$PROJECT_DIR$/RedisSetNX/RedisSetNX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortArchithal/SortArchithal.iml" filepath="$PROJECT_DIR$/SortArchithal/SortArchithal.iml" />
       <module fileurl="file://$PROJECT_DIR$/atomiko/atomiko.iml" filepath="$PROJECT_DIR$/atomiko/atomiko.iml" />
       <module fileurl="file://$PROJECT_DIR$/configserver/configserver.iml" filepath="$PROJECT_DIR$/configserver/configserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/customer/customer.iml" filepath="$PROJECT_DIR$/customer/customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/demo.iml" filepath="$PROJECT_DIR$/.idea/demo.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-all/dubbo.iml" filepath="D:/下载/dubbo-master/dubbo-all/dubbo.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-plugin/dubbo-auth/dubbo-auth.iml" filepath="D:/下载/dubbo-master/dubbo-plugin/dubbo-auth/dubbo-auth.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-bom/dubbo-bom.iml" filepath="D:/下载/dubbo-master/dubbo-bom/dubbo-bom.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-cluster/dubbo-cluster.iml" filepath="D:/下载/dubbo-master/dubbo-cluster/dubbo-cluster.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-common/dubbo-common.iml" filepath="D:/下载/dubbo-master/dubbo-common/dubbo-common.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-compatible/dubbo-compatible.iml" filepath="D:/下载/dubbo-master/dubbo-compatible/dubbo-compatible.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/compiler/dubbo-compiler.iml" filepath="D:/下载/dubbo-master/compiler/dubbo-compiler.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-config/dubbo-config.iml" filepath="D:/下载/dubbo-master/dubbo-config/dubbo-config.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-config/dubbo-config-api/dubbo-config-api.iml" filepath="D:/下载/dubbo-master/dubbo-config/dubbo-config-api/dubbo-config-api.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-config/dubbo-config-spring/dubbo-config-spring.iml" filepath="D:/下载/dubbo-master/dubbo-config/dubbo-config-spring/dubbo-config-spring.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-configcenter/dubbo-configcenter.iml" filepath="D:/下载/dubbo-master/dubbo-configcenter/dubbo-configcenter.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-configcenter/dubbo-configcenter-apollo/dubbo-configcenter-apollo.iml" filepath="D:/下载/dubbo-master/dubbo-configcenter/dubbo-configcenter-apollo/dubbo-configcenter-apollo.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-configcenter/dubbo-configcenter-consul/dubbo-configcenter-consul.iml" filepath="D:/下载/dubbo-master/dubbo-configcenter/dubbo-configcenter-consul/dubbo-configcenter-consul.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-configcenter/dubbo-configcenter-etcd/dubbo-configcenter-etcd.iml" filepath="D:/下载/dubbo-master/dubbo-configcenter/dubbo-configcenter-etcd/dubbo-configcenter-etcd.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-configcenter/dubbo-configcenter-nacos/dubbo-configcenter-nacos.iml" filepath="D:/下载/dubbo-master/dubbo-configcenter/dubbo-configcenter-nacos/dubbo-configcenter-nacos.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-configcenter/dubbo-configcenter-zookeeper/dubbo-configcenter-zookeeper.iml" filepath="D:/下载/dubbo-master/dubbo-configcenter/dubbo-configcenter-zookeeper/dubbo-configcenter-zookeeper.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-container/dubbo-container.iml" filepath="D:/下载/dubbo-master/dubbo-container/dubbo-container.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-container/dubbo-container-api/dubbo-container-api.iml" filepath="D:/下载/dubbo-master/dubbo-container/dubbo-container-api/dubbo-container-api.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-container/dubbo-container-log4j/dubbo-container-log4j.iml" filepath="D:/下载/dubbo-master/dubbo-container/dubbo-container-log4j/dubbo-container-log4j.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-container/dubbo-container-logback/dubbo-container-logback.iml" filepath="D:/下载/dubbo-master/dubbo-container/dubbo-container-logback/dubbo-container-logback.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-container/dubbo-container-spring/dubbo-container-spring.iml" filepath="D:/下载/dubbo-master/dubbo-container/dubbo-container-spring/dubbo-container-spring.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-demo/dubbo-demo.iml" filepath="D:/下载/dubbo-master/dubbo-demo/dubbo-demo.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-demo/dubbo-demo-annotation/dubbo-demo-annotation.iml" filepath="D:/下载/dubbo-master/dubbo-demo/dubbo-demo-annotation/dubbo-demo-annotation.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-demo/dubbo-demo-annotation/dubbo-demo-annotation-consumer/dubbo-demo-annotation-consumer.iml" filepath="D:/下载/dubbo-master/dubbo-demo/dubbo-demo-annotation/dubbo-demo-annotation-consumer/dubbo-demo-annotation-consumer.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-demo/dubbo-demo-annotation/dubbo-demo-annotation-provider/dubbo-demo-annotation-provider.iml" filepath="D:/下载/dubbo-master/dubbo-demo/dubbo-demo-annotation/dubbo-demo-annotation-provider/dubbo-demo-annotation-provider.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-demo/dubbo-demo-api/dubbo-demo-api.iml" filepath="D:/下载/dubbo-master/dubbo-demo/dubbo-demo-api/dubbo-demo-api.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-demo/dubbo-demo-api/dubbo-demo-api-consumer/dubbo-demo-api-consumer.iml" filepath="D:/下载/dubbo-master/dubbo-demo/dubbo-demo-api/dubbo-demo-api-consumer/dubbo-demo-api-consumer.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-demo/dubbo-demo-api/dubbo-demo-api-provider/dubbo-demo-api-provider.iml" filepath="D:/下载/dubbo-master/dubbo-demo/dubbo-demo-api/dubbo-demo-api-provider/dubbo-demo-api-provider.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-demo/dubbo-demo-interface/dubbo-demo-interface.iml" filepath="D:/下载/dubbo-master/dubbo-demo/dubbo-demo-interface/dubbo-demo-interface.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-demo/dubbo-demo-xml/dubbo-demo-xml.iml" filepath="D:/下载/dubbo-master/dubbo-demo/dubbo-demo-xml/dubbo-demo-xml.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-demo/dubbo-demo-xml/dubbo-demo-xml-consumer/dubbo-demo-xml-consumer.iml" filepath="D:/下载/dubbo-master/dubbo-demo/dubbo-demo-xml/dubbo-demo-xml-consumer/dubbo-demo-xml-consumer.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-demo/dubbo-demo-xml/dubbo-demo-xml-provider/dubbo-demo-xml-provider.iml" filepath="D:/下载/dubbo-master/dubbo-demo/dubbo-demo-xml/dubbo-demo-xml-provider/dubbo-demo-xml-provider.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-dependencies/dubbo-dependencies.iml" filepath="D:/下载/dubbo-master/dubbo-dependencies/dubbo-dependencies.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-dependencies-bom/dubbo-dependencies-bom.iml" filepath="D:/下载/dubbo-master/dubbo-dependencies-bom/dubbo-dependencies-bom.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-dependencies/dubbo-dependencies-zookeeper/dubbo-dependencies-zookeeper.iml" filepath="D:/下载/dubbo-master/dubbo-dependencies/dubbo-dependencies-zookeeper/dubbo-dependencies-zookeeper.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-distribution/dubbo-distribution.iml" filepath="D:/下载/dubbo-master/dubbo-distribution/dubbo-distribution.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-filter/dubbo-filter.iml" filepath="D:/下载/dubbo-master/dubbo-filter/dubbo-filter.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-filter/dubbo-filter-cache/dubbo-filter-cache.iml" filepath="D:/下载/dubbo-master/dubbo-filter/dubbo-filter-cache/dubbo-filter-cache.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-filter/dubbo-filter-validation/dubbo-filter-validation.iml" filepath="D:/下载/dubbo-master/dubbo-filter/dubbo-filter-validation/dubbo-filter-validation.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata.iml" filepath="D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-api/dubbo-metadata-api.iml" filepath="D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-api/dubbo-metadata-api.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-definition-protobuf/dubbo-metadata-definition-protobuf.iml" filepath="D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-definition-protobuf/dubbo-metadata-definition-protobuf.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-processor/dubbo-metadata-processor.iml" filepath="D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-processor/dubbo-metadata-processor.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-report-consul/dubbo-metadata-report-consul.iml" filepath="D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-report-consul/dubbo-metadata-report-consul.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-report-etcd/dubbo-metadata-report-etcd.iml" filepath="D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-report-etcd/dubbo-metadata-report-etcd.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-report-nacos/dubbo-metadata-report-nacos.iml" filepath="D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-report-nacos/dubbo-metadata-report-nacos.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-report-redis/dubbo-metadata-report-redis.iml" filepath="D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-report-redis/dubbo-metadata-report-redis.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-report-zookeeper/dubbo-metadata-report-zookeeper.iml" filepath="D:/下载/dubbo-master/dubbo-metadata/dubbo-metadata-report-zookeeper/dubbo-metadata-report-zookeeper.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-monitor/dubbo-monitor.iml" filepath="D:/下载/dubbo-master/dubbo-monitor/dubbo-monitor.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-monitor/dubbo-monitor-api/dubbo-monitor-api.iml" filepath="D:/下载/dubbo-master/dubbo-monitor/dubbo-monitor-api/dubbo-monitor-api.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-monitor/dubbo-monitor-default/dubbo-monitor-default.iml" filepath="D:/下载/dubbo-master/dubbo-monitor/dubbo-monitor-default/dubbo-monitor-default.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-parent.iml" filepath="D:/下载/dubbo-master/dubbo-parent.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-plugin/dubbo-plugin.iml" filepath="D:/下载/dubbo-master/dubbo-plugin/dubbo-plugin.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-plugin/dubbo-qos/dubbo-qos.iml" filepath="D:/下载/dubbo-master/dubbo-plugin/dubbo-qos/dubbo-qos.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-registry/dubbo-registry.iml" filepath="D:/下载/dubbo-master/dubbo-registry/dubbo-registry.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-registry/dubbo-registry-api/dubbo-registry-api.iml" filepath="D:/下载/dubbo-master/dubbo-registry/dubbo-registry-api/dubbo-registry-api.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-registry/dubbo-registry-consul/dubbo-registry-consul.iml" filepath="D:/下载/dubbo-master/dubbo-registry/dubbo-registry-consul/dubbo-registry-consul.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-registry/dubbo-registry-default/dubbo-registry-default.iml" filepath="D:/下载/dubbo-master/dubbo-registry/dubbo-registry-default/dubbo-registry-default.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-registry/dubbo-registry-etcd3/dubbo-registry-etcd3.iml" filepath="D:/下载/dubbo-master/dubbo-registry/dubbo-registry-etcd3/dubbo-registry-etcd3.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-registry/dubbo-registry-eureka/dubbo-registry-eureka.iml" filepath="D:/下载/dubbo-master/dubbo-registry/dubbo-registry-eureka/dubbo-registry-eureka.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-registry/dubbo-registry-multicast/dubbo-registry-multicast.iml" filepath="D:/下载/dubbo-master/dubbo-registry/dubbo-registry-multicast/dubbo-registry-multicast.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-registry/dubbo-registry-multiple/dubbo-registry-multiple.iml" filepath="D:/下载/dubbo-master/dubbo-registry/dubbo-registry-multiple/dubbo-registry-multiple.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-registry/dubbo-registry-nacos/dubbo-registry-nacos.iml" filepath="D:/下载/dubbo-master/dubbo-registry/dubbo-registry-nacos/dubbo-registry-nacos.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-registry/dubbo-registry-redis/dubbo-registry-redis.iml" filepath="D:/下载/dubbo-master/dubbo-registry/dubbo-registry-redis/dubbo-registry-redis.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-registry/dubbo-registry-sofa/dubbo-registry-sofa.iml" filepath="D:/下载/dubbo-master/dubbo-registry/dubbo-registry-sofa/dubbo-registry-sofa.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-registry/dubbo-registry-zookeeper/dubbo-registry-zookeeper.iml" filepath="D:/下载/dubbo-master/dubbo-registry/dubbo-registry-zookeeper/dubbo-registry-zookeeper.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting.iml" filepath="D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-api/dubbo-remoting-api.iml" filepath="D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-api/dubbo-remoting-api.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-etcd3/dubbo-remoting-etcd3.iml" filepath="D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-etcd3/dubbo-remoting-etcd3.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-grizzly/dubbo-remoting-grizzly.iml" filepath="D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-grizzly/dubbo-remoting-grizzly.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-http/dubbo-remoting-http.iml" filepath="D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-http/dubbo-remoting-http.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-mina/dubbo-remoting-mina.iml" filepath="D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-mina/dubbo-remoting-mina.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-netty/dubbo-remoting-netty.iml" filepath="D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-netty/dubbo-remoting-netty.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-netty4/dubbo-remoting-netty4.iml" filepath="D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-netty4/dubbo-remoting-netty4.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-p2p/dubbo-remoting-p2p.iml" filepath="D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-p2p/dubbo-remoting-p2p.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-zookeeper/dubbo-remoting-zookeeper.iml" filepath="D:/下载/dubbo-master/dubbo-remoting/dubbo-remoting-zookeeper/dubbo-remoting-zookeeper.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-api/dubbo-rpc-api.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-api/dubbo-rpc-api.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-dubbo/dubbo-rpc-dubbo.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-dubbo/dubbo-rpc-dubbo.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-grpc/dubbo-rpc-grpc.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-grpc/dubbo-rpc-grpc.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-hessian/dubbo-rpc-hessian.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-hessian/dubbo-rpc-hessian.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-http/dubbo-rpc-http.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-http/dubbo-rpc-http.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-injvm/dubbo-rpc-injvm.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-injvm/dubbo-rpc-injvm.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-memcached/dubbo-rpc-memcached.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-memcached/dubbo-rpc-memcached.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-native-thrift/dubbo-rpc-native-thrift.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-native-thrift/dubbo-rpc-native-thrift.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-redis/dubbo-rpc-redis.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-redis/dubbo-rpc-redis.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-rest/dubbo-rpc-rest.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-rest/dubbo-rpc-rest.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-rmi/dubbo-rpc-rmi.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-rmi/dubbo-rpc-rmi.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-thrift/dubbo-rpc-thrift.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-thrift/dubbo-rpc-thrift.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-webservice/dubbo-rpc-webservice.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-webservice/dubbo-rpc-webservice.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-xml/dubbo-rpc-xml.iml" filepath="D:/下载/dubbo-master/dubbo-rpc/dubbo-rpc-xml/dubbo-rpc-xml.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization.iml" filepath="D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-api/dubbo-serialization-api.iml" filepath="D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-api/dubbo-serialization-api.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-avro/dubbo-serialization-avro.iml" filepath="D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-avro/dubbo-serialization-avro.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-fastjson/dubbo-serialization-fastjson.iml" filepath="D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-fastjson/dubbo-serialization-fastjson.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-fst/dubbo-serialization-fst.iml" filepath="D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-fst/dubbo-serialization-fst.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-gson/dubbo-serialization-gson.iml" filepath="D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-gson/dubbo-serialization-gson.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-hessian2/dubbo-serialization-hessian2.iml" filepath="D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-hessian2/dubbo-serialization-hessian2.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-jdk/dubbo-serialization-jdk.iml" filepath="D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-jdk/dubbo-serialization-jdk.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-kryo/dubbo-serialization-kryo.iml" filepath="D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-kryo/dubbo-serialization-kryo.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-native-hession/dubbo-serialization-native-hession.iml" filepath="D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-native-hession/dubbo-serialization-native-hession.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-protobuf/dubbo-serialization-protobuf.iml" filepath="D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-protobuf/dubbo-serialization-protobuf.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-protostuff/dubbo-serialization-protostuff.iml" filepath="D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-protostuff/dubbo-serialization-protostuff.iml" />
+      <module fileurl="file://D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-test/dubbo-serialization-test.iml" filepath="D:/下载/dubbo-master/dubbo-serialization/dubbo-serialization-test/dubbo-serialization-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://D:/下载/spring-cloud-connectors-master/spring-cloud-cloudfoundry-connector/src/main/main.iml" filepath="D:/下载/spring-cloud-connectors-master/spring-cloud-cloudfoundry-connector/src/main/main.iml" />
+      <module fileurl="file://D:/下载/spring-cloud-connectors-master/spring-cloud-localconfig-connector/src/main/main1.iml" filepath="D:/下载/spring-cloud-connectors-master/spring-cloud-localconfig-connector/src/main/main1.iml" />
+      <module fileurl="file://D:/下载/spring-cloud-connectors-master/spring-cloud-spring-service-connector/src/main/main2.iml" filepath="D:/下载/spring-cloud-connectors-master/spring-cloud-spring-service-connector/src/main/main2.iml" />
+      <module fileurl="file://D:/下载/spring-cloud-connectors-master/spring-cloud-heroku-connector/src/main/main3.iml" filepath="D:/下载/spring-cloud-connectors-master/spring-cloud-heroku-connector/src/main/main3.iml" />
+      <module fileurl="file://D:/下载/spring-cloud-connectors-master/spring-cloud-core/src/main/main4.iml" filepath="D:/下载/spring-cloud-connectors-master/spring-cloud-core/src/main/main4.iml" />
       <module fileurl="file://$PROJECT_DIR$/myparent/myparent.iml" filepath="$PROJECT_DIR$/myparent/myparent.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-connectors-master.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-connectors-master.iml" />
+      <module fileurl="file://D:/下载/spring-cloud-connectors-master/spring-cloud-core/src/test/test.iml" filepath="D:/下载/spring-cloud-connectors-master/spring-cloud-core/src/test/test.iml" />
+      <module fileurl="file://D:/下载/spring-cloud-connectors-master/spring-cloud-cloudfoundry-connector/src/test/test1.iml" filepath="D:/下载/spring-cloud-connectors-master/spring-cloud-cloudfoundry-connector/src/test/test1.iml" />
+      <module fileurl="file://D:/下载/spring-cloud-connectors-master/spring-cloud-heroku-connector/src/test/test2.iml" filepath="D:/下载/spring-cloud-connectors-master/spring-cloud-heroku-connector/src/test/test2.iml" />
+      <module fileurl="file://D:/下载/spring-cloud-connectors-master/spring-cloud-spring-service-connector/src/test/test3.iml" filepath="D:/下载/spring-cloud-connectors-master/spring-cloud-spring-service-connector/src/test/test3.iml" />
+      <module fileurl="file://D:/下载/spring-cloud-connectors-master/spring-cloud-localconfig-connector/src/test/test4.iml" filepath="D:/下载/spring-cloud-connectors-master/spring-cloud-localconfig-connector/src/test/test4.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>
   </component>

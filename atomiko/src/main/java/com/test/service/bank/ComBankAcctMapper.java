@@ -16,7 +16,7 @@ public interface ComBankAcctMapper {
 	 * @param comBankAcct: 要插入的数据对象
 	 * @return: int 表变动条数
 	 */
-	@Insert("insert into com_bank_acct(acct_no,cust_no,deposit_acct,sell_code) values('123','123',#{depositAcct},'801')")
+	//@Insert("insert into com_bank_acct(acct_no,cust_no,deposit_acct,sell_code) values('123','123',#{depositAcct},'801')")
     int insert(ComBankAcctPo comBankAcct);
 
 

@@ -12,6 +12,17 @@ public class MyApplication {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
         PubCustController jtaService = context.getBean("pubCustInfoController", PubCustController.class);
-        jtaService.insert();
+        //jtaService.insert();
+
+        Runnable runnable = () ->{
+            jtaService.insert();
+        };
+
+        for (int i = 0; i < 3; i++) {
+            Thread thread = new Thread(jtaService,"线程==["+i+"]==运行中");
+            thread.start();
+        }
+
+
     }
 }
